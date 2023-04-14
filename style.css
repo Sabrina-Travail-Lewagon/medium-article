@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100,500;300&display=swap');
+
+body{
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  margin: auto;
+}
+
+.banniere{
+  background-image: url("https://source.unsplash.com/Xaanw0s0pMk");
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 120px 0px;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #fff;
+  font-size: 38px;
+}
+
+.banniere > .conteneur > p {
+  color: #fff;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.conteneur{
+  width: 600px;
+  margin: 50px auto;
+  text-align: left;
+}
+
+h2{
+  color: #A0A0A0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+p{
+  font-size: 18px;
+  color: #494949;
+}
+
+a{
+  font-size: 25px;
+  font-style: italic;
+  color: #636363;
+  text-decoration: none;
+  background: linear-gradient(90deg, rgba(211,47,237,1) 10%, rgba(240,218,244,1) 44%);
+  background-image : linear-gradient( to bottom, rgba(241,183,246,1) 0%,rgba(242,225,245,1) 100% );
+}
+
+a:hover{
+  background-image : linear-gradient( to bottom, rgba(246,223,183,1) 0%,rgba(247,234,193,1) 100% );
+}
+
+/* Media queries */
+@media(max-width: 992px) {
+  .conteneur {
+    width: 700px;
+  }
+}
+
+@media(max-width: 750px) {
+  .conteneur {
+    width: 450px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .conteneur {
+    width: 300px;
+  }
+}
